@@ -65,7 +65,8 @@ document.addEventListener('DOMContentLoaded', function () {
       $('.burger').removeClass('active');
       $('#header').removeClass("white");
    });
-
+   
+   //popup
    $('.video-popup').magnificPopup({
       type: 'iframe',
       mainClass: 'mfp-fade',
@@ -104,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function () {
          }
       ]
    });
-
+   
    $('.quotes__slider').slick({
       draggable: false,
       infinity: true,
