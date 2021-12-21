@@ -64,28 +64,8 @@ document.addEventListener('DOMContentLoaded', function () {
       $('#nav').removeClass('open');
       $('.burger').removeClass('active');
       $('#header').removeClass("white");
-   });
+   }); 
    
-   //popup
-   $('.video-popup').magnificPopup({
-      type: 'iframe',
-      mainClass: 'mfp-fade',
-      removalDelay: 160,
-      preloader: false,
-      fixedContentPos: false,
-      callbacks: {
-
-         open: function () {
-            $('body').css('overflow', 'hidden');
-         },
-
-         close: function () {
-            $('body').css('overflow', '');
-         },
-
-      },
-   });
-
    //slick slider
    $('.slider').slick({
       draggable: false,
