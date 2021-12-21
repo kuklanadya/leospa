@@ -93,6 +93,10 @@ button:hover {
   background-color: #ff4f4d;
 }
 
+.mfp-close:hover {
+   background-color: transparent;
+}
+
 ::-webkit-input-placeholder {
   text-transform: uppercase;
 }
