@@ -64,8 +64,8 @@ document.addEventListener('DOMContentLoaded', function () {
       $('#nav').removeClass('open');
       $('.burger').removeClass('active');
       $('#header').removeClass("white");
-   }); 
-   
+   });
+
    //slick slider
    $('.slider').slick({
       draggable: false,
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
          }
       ]
    });
-   
+
    $('.quotes__slider').slick({
       draggable: false,
       infinity: true,
